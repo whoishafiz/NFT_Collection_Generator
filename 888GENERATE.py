@@ -228,13 +228,13 @@ os.mkdir(f'./images')
 
 for item in all_images:
 
-    im1 = Image.open(f'./Functions/GRINNER/{background_files[item["background"]]}.png').convert('RGBA')
-    im2 = Image.open(f'./Functions/GRINNER/{teeth_files[item["teeth"]]}.png').convert('RGBA')
-    im3 = Image.open(f'./Functions/GRINNER/{species_files[item["species"]]}.png').convert('RGBA')
-    im4 = Image.open(f'./Functions/GRINNER/{eyes_files[item["eyes"]]}.png').convert('RGBA')
-    im5 = Image.open(f'./Functions/GRINNER/{occupation_files[item["occupation"]]}.png').convert('RGBA')
-    im6 = Image.open(f'./Functions/GRINNER/{issue_files[item["issue"]]}.png').convert('RGBA')
-    im7 = Image.open(f'./Functions/GRINNER/{head_files[item["head"]]}.png').convert('RGBA')
+    im1 = Image.open(f'./Functions/TRAITS/{background_files[item["background"]]}.png').convert('RGBA')
+    im2 = Image.open(f'./Functions/TRAITS/{teeth_files[item["teeth"]]}.png').convert('RGBA')
+    im3 = Image.open(f'./Functions/TRAITS/{species_files[item["species"]]}.png').convert('RGBA')
+    im4 = Image.open(f'./Functions/TRAITS/{eyes_files[item["eyes"]]}.png').convert('RGBA')
+    im5 = Image.open(f'./Functions/TRAITS/{occupation_files[item["occupation"]]}.png').convert('RGBA')
+    im6 = Image.open(f'./Functions/TRAITS/{issue_files[item["issue"]]}.png').convert('RGBA')
+    im7 = Image.open(f'./Functions/TRAITS/{head_files[item["head"]]}.png').convert('RGBA')
 
     #Create each composite
     com1 = Image.alpha_composite(im1, im2)
