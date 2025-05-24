@@ -4,7 +4,7 @@
 ## 📜 Code License (MIT)
 MIT License
 
-Copyright (c) 2025 Hafiz Maiddin
+Copyright (c) 2025 88
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -30,7 +30,7 @@ The generated images and traits used in this project are licensed under the **Cr
 
 This means:
 - You are free to **share** and **adapt** the images, but **only for non-commercial purposes**.
-- You must **give appropriate credit** to the original creator (Hafiz Maiddin), and **indicate if changes were made**.
+- You must **give appropriate credit** to the original creator (88), and **indicate if changes were made**.
 - If you remix, transform, or build upon the images, you must **distribute your contributions under the same license**.
 
 For more details, visit:  
