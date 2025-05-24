@@ -38,10 +38,10 @@ The final images and metadata are stored in:
 ## 🏗️ Usage Instructions
 
 1. Ensure you have Python 3.x and `PIL` (Pillow) installed.
-2. Place the required trait images in `./Functions/GRINNER/` (PNG format with transparency).
-3. Run the script:
+2. Prepare your different layer assets and place the required trait images in `./Functions/Traits/` (PNG format with transparency).
+4. Run the script:
 ```bash
-python GRINNER.py
+python 888GENERATE.py
 ```
 4. Generated images will appear in `./images/`, and metadata in `./metadata/`.
 
